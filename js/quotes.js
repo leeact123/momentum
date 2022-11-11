@@ -46,6 +46,9 @@ const author = document.querySelector("#quote span:last-child");
 
 
 const todaysQuote =quotes[Math.floor(Math.random() * quotes.length)];
+//Math.floor(1.9):소수점 아래자리 수를 버리고 정수만 쓴다
+//Math.random() 0이상 1미만의 숫자를 무작위로 준다. 여기에 *10을 하면 0이상 10미만 사이의 숫자를 주므로 *quotes.length를 하면 quotes의 배열안의 자료 갯수(즉, 10개)를 곱해주는 효과가 있다.
+//Math.ceil() 소수점을 올림 Math.round() 소수점반올림
 
 
 quote.innerText = todaysQuote.quote;

@@ -75,19 +75,19 @@ img {
     grid-template-columns: 1fr 5fr 1fr;
     grid-template-rows: 1fr 3fr 1fr;
     grid-template-areas:
-        'aside1 main aside2'
-        'aside1 main aside2'
-        'aside1 main aside2';
+        'aside1 main aside3'
+        'aside1 main aside3'
+        'aside2 main aside3';
 
 }
 .main-screen__center{
     grid-area: main;
 }
 .main-screen__aside1 {
-    grid-area: aside;
+    grid-area: aside1;
 }
 .main-screen__aside2 {
-    grid-area: aside;
+    grid-area: aside3;
 }
 #greeting {
     font-size: 50px;
@@ -99,7 +99,7 @@ h2 {
     text-align: center;
     color: white;
     font-size: 50px;
-    margin: 70px 30px 0px;
+    margin: 100px 30px 0px;
 }
 
 #todo-form {
@@ -166,4 +166,10 @@ h2 {
     position: fixed;
     top: 10px;
   
+}
+
+#weather {
+    font-weight: 600;
+    font-size: 25px;
+    color: aliceblue;
 }

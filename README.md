@@ -1,4 +1,4 @@
-# Creat momentum
+# Momentum
 
 ---
 
